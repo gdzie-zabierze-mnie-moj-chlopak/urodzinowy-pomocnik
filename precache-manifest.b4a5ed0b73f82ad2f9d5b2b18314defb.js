@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/urodzinowy-pomocnik/static/js/runtime~main.db808dce.js"
   },
   {
-    "revision": "073e48531bde316ffb6b",
-    "url": "/urodzinowy-pomocnik/static/js/main.44719525.chunk.js"
+    "revision": "f514fdc1537b432e9f72",
+    "url": "/urodzinowy-pomocnik/static/js/main.70eb67e9.chunk.js"
   },
   {
     "revision": "d12900f7dafd68cdb958",
     "url": "/urodzinowy-pomocnik/static/js/2.1577f0aa.chunk.js"
   },
   {
-    "revision": "073e48531bde316ffb6b",
+    "revision": "f514fdc1537b432e9f72",
     "url": "/urodzinowy-pomocnik/static/css/main.ac20ba4c.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/urodzinowy-pomocnik/static/css/2.01ffda2a.chunk.css"
   },
   {
-    "revision": "ac02120c92f0dd31947ee27a80fd6def",
+    "revision": "2a1c117284a367ef6a50304e9e8840bd",
     "url": "/urodzinowy-pomocnik/index.html"
   }
 ];
