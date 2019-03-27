@@ -82,7 +82,7 @@ class App extends Component {
     return (
       <div key={title} style={{height: `${height}%`, display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
         <Card key={title} style={{ width: '100%', backgroundColor: '#cecece' }} onClick={handleOnClick}>
-          <Card.Body>
+          <Card.Body style={{ padding: '10px' }}>
             <Card.Title>{title}</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">{subtitle}</Card.Subtitle>
             <Card.Text>{desc}</Card.Text>
