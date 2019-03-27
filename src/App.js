@@ -218,7 +218,7 @@ class App extends Component {
           Osoby w tym wieku najczęściej muszą podejmować mnóstwo decyzji, które będą miały bardzo istotny wpływ na najbliższe lata ich życia.
           Niestety przed Tobą kolejny trudny wybór: musisz zadecydować gdzie chcesz być zabrana z okazji urodzin przez swojego cudownego chłopaka.
           Ta aplikacja ma na celu ułatwić tę decyzję.
-        </p><br /><br />
+        </p><br />
         <p>
           <Button onClick={handleOnClick} variant="primary">Rozpocznij</Button>
         </p>
