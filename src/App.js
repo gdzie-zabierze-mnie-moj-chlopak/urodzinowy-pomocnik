@@ -13,12 +13,12 @@ const SCENARIOS = {
   CULTURE: {
     title: 'Kultura',
     subtitle: 'Pora się nieco odchamić!',
-    desc: 'Jesteśmy już dorośli, trzeba skończyć z wygłupami. Pora zaznać trochę rozrywek poważnych i kulturalnych ludzi - w końcu do bycia takimi aspirujemy.',
+    desc: 'Jesteśmy już dorośli, trzeba skończyć z wygłupami. Pora zaznać trochę rozrywek poważnych ludzi - w końcu do bycia takimi aspirujemy.',
   },
   FRIENDS: {
     title: 'Znajomi',
     subtitle: 'Chcę świętować w większym gronie!',
-    desc: 'Podzwońmy po ludziach - na pewno ktoś się nudzi. Możemy się spotkać i porobić coś fajnego. Ale nawet jeśli nikt nie ma dziś czasu to nic - możemy to zrobić tylko we dwoje.',
+    desc: 'Podzwońmy po ludziach - zapewno ktoś się nudzi. Możemy się spotkać i zrobić coś razem. Jeśli nikt nie ma dziś czasu to nic - możemy to zrobić tylko we dwoje.',
   },
   SPORT: {
     title: 'Sport',
@@ -37,7 +37,7 @@ const OPTIONS = {
     MOVIE: {
       title: 'Kino',
       subtitle: 'Dowolne kino',
-      desc: 'Przejrzyjmy repertuar kin i wybierzmy najbardziej interesujący film. Decydujący głos posiada Karolinka :)',
+      desc: 'Przejrzyjmy repertuar kin i wybierzmy najbardziej interesujący film. Decydujący głos posiada wyjątkowo dziś Karolinka :)',
     },
   },
   FRIENDS: {
@@ -128,9 +128,9 @@ class App extends Component {
 
     return (
       <Jumbotron style={{height: "100vh", marginBottom: 0, display: 'flex', flexFlow: 'column'}}> 
-        <h2>Wybór opcji</h2><br />
+        <h2>Wybór opcji</h2>
         <h5>Wybrany scenariusz: {SCENARIOS[this.state.scenario].title}</h5>
-        <h6>{SCENARIOS[this.state.scenario].desc}</h6><br />
+        <h6>{SCENARIOS[this.state.scenario].desc}</h6>
         <p>Skoro wybór scenariusza mamy już za sobą to pora na konkret. Podobnie jak wcześniej możesz sama zadecydować o swojej najbliższej przyszłości lub zaufać ślepemu losowi :)</p>
         {renderBody()}
       </Jumbotron>
