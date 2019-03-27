@@ -172,8 +172,8 @@ class App extends Component {
       <Jumbotron style={{height: "100vh", marginBottom: 0, display: 'flex', flexFlow: 'column'}}> 
         <h2>Wybór scenariusza</h2>
         <p>
-          W pierwszym kroku wypada zdefiniować zgrubny pomysł na spędzenie wieczoru.
-          Możesz sama wybrać jeden spośród 3 scenariuszy lub zrzucić problem decyzyjny na aplikację klikając przycisk <i>Losuj</i> (<b>Uwaga</b>: używasz na własną odpowiedzialność!).
+          W pierwszym kroku zdefiniuj zgrubny pomysł na spędzenie wieczoru.
+          Możesz sama wybrać jeden spośród 3 scenariuszy lub zlecić decyzję aplikacji klikając przycisk <i>Losuj</i> (<b>Uwaga</b>: używasz na własną odpowiedzialność!).
         </p>
         {renderBody()}
       </Jumbotron>
@@ -189,7 +189,7 @@ class App extends Component {
         </p>
         <div style={{flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
           <Card bg="primary" text="white">
-            <Card.Header as="h3">Twój wybór:</Card.Header>
+            <Card.Header as="h4">Twój wybór:</Card.Header>
             <Card.Body>
               <Card.Title>{OPTIONS[this.state.scenario][this.state.option].title}</Card.Title>
               <Card.Subtitle className="mb-2 text-white">{OPTIONS[this.state.scenario][this.state.option].subtitle}</Card.Subtitle>
