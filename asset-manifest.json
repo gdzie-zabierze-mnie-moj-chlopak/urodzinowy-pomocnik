@@ -1,15 +1,15 @@
 {
-  "main.css": "/urodzinowy-pomocnik/static/css/main.babc6af0.chunk.css",
-  "main.js": "/urodzinowy-pomocnik/static/js/main.5e5a270b.chunk.js",
-  "main.js.map": "/urodzinowy-pomocnik/static/js/main.5e5a270b.chunk.js.map",
+  "main.css": "/urodzinowy-pomocnik/static/css/main.7d6f5924.chunk.css",
+  "main.js": "/urodzinowy-pomocnik/static/js/main.3604f6f7.chunk.js",
+  "main.js.map": "/urodzinowy-pomocnik/static/js/main.3604f6f7.chunk.js.map",
   "runtime~main.js": "/urodzinowy-pomocnik/static/js/runtime~main.db808dce.js",
   "runtime~main.js.map": "/urodzinowy-pomocnik/static/js/runtime~main.db808dce.js.map",
   "static/css/2.01ffda2a.chunk.css": "/urodzinowy-pomocnik/static/css/2.01ffda2a.chunk.css",
   "static/js/2.1577f0aa.chunk.js": "/urodzinowy-pomocnik/static/js/2.1577f0aa.chunk.js",
   "static/js/2.1577f0aa.chunk.js.map": "/urodzinowy-pomocnik/static/js/2.1577f0aa.chunk.js.map",
   "index.html": "/urodzinowy-pomocnik/index.html",
-  "precache-manifest.32b78f9a0cf92950180112f97624d501.js": "/urodzinowy-pomocnik/precache-manifest.32b78f9a0cf92950180112f97624d501.js",
+  "precache-manifest.a24dddb34a3e81ff29fb093c03a46b9b.js": "/urodzinowy-pomocnik/precache-manifest.a24dddb34a3e81ff29fb093c03a46b9b.js",
   "service-worker.js": "/urodzinowy-pomocnik/service-worker.js",
   "static/css/2.01ffda2a.chunk.css.map": "/urodzinowy-pomocnik/static/css/2.01ffda2a.chunk.css.map",
-  "static/css/main.babc6af0.chunk.css.map": "/urodzinowy-pomocnik/static/css/main.babc6af0.chunk.css.map"
+  "static/css/main.7d6f5924.chunk.css.map": "/urodzinowy-pomocnik/static/css/main.7d6f5924.chunk.css.map"
 }

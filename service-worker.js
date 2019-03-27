@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/urodzinowy-pomocnik/precache-manifest.32b78f9a0cf92950180112f97624d501.js"
+  "/urodzinowy-pomocnik/precache-manifest.a24dddb34a3e81ff29fb093c03a46b9b.js"
 );
 
 workbox.clientsClaim();
