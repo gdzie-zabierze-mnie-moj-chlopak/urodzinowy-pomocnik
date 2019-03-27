@@ -1,24 +1,24 @@
-h1 {
+.h1 {
   font-size: 32px !important;
 }
 
-h2 {
+.h2 {
   font-size: 28px !important;
 }
 
-h3 {
+.h3 {
   font-size: 24px !important;
 }
 
-h4 {
+.h4 {
   font-size: 20px !important;
 }
 
-h5 {
+.h5 {
   font-size: 16px !important;
 }
 
-h6 {
+.h6 {
   font-size: 12px !important;
 }
 

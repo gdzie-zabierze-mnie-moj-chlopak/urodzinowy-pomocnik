@@ -128,7 +128,7 @@ class App extends Component {
 
     return (
       <Jumbotron style={{height: "100vh", marginBottom: 0, display: 'flex', flexFlow: 'column'}}> 
-        <h1>Wybór opcji</h1><br />
+        <h2>Wybór opcji</h2><br />
         <h5>Wybrany scenariusz: {SCENARIOS[this.state.scenario].title}</h5>
         <h6>{SCENARIOS[this.state.scenario].desc}</h6><br />
         <p>Skoro wybór scenariusza mamy już za sobą to pora na konkret. Podobnie jak wcześniej możesz sama zadecydować o swojej najbliższej przyszłości lub zaufać ślepemu losowi :)</p>
@@ -170,7 +170,7 @@ class App extends Component {
 
     return (
       <Jumbotron style={{height: "100vh", marginBottom: 0, display: 'flex', flexFlow: 'column'}}> 
-        <h1>Wybór scenariusza</h1>
+        <h2>Wybór scenariusza</h2>
         <p>
           W pierwszym kroku wypada zdefiniować zgrubny pomysł na spędzenie wieczoru.
           Możesz sama wybrać jeden spośród 3 scenariuszy lub zrzucić problem decyzyjny na aplikację klikając przycisk <i>Losuj</i> (<b>Uwaga</b>: używasz na własną odpowiedzialność!).
@@ -183,13 +183,13 @@ class App extends Component {
   renderSummary = () => {
     return (
       <Jumbotron style={{height: "100vh", marginBottom: 0, display: 'flex', flexFlow: 'column'}}>
-        <h1>Sukces!</h1>
+        <h2>Sukces!</h2>
         <p>
           Najtrudniejszą część mamy już za sobą. Nie było łatwo, ale udało się ustalić co będziemy robić w Twoje urodziny! Bartuś jest z Ciebie dumny :)
         </p>
         <div style={{flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
           <Card bg="primary" text="white">
-            <Card.Header as="h3">Wybrałaś co następuje:</Card.Header>
+            <Card.Header as="h3">Twój wybór:</Card.Header>
             <Card.Body>
               <Card.Title>{OPTIONS[this.state.scenario][this.state.option].title}</Card.Title>
               <Card.Subtitle className="mb-2 text-white">{OPTIONS[this.state.scenario][this.state.option].subtitle}</Card.Subtitle>
@@ -211,7 +211,7 @@ class App extends Component {
 
     return (
       <Jumbotron style={{height: "100vh", marginBottom: 0, display: 'flex', flexFlow: 'column'}}>
-        <h1>Sto lat!</h1>
+        <h2>Sto lat!</h2>
         <h4>Dziś kończysz 23. rok życia.</h4><br /><br />
         <p>
           W systemie szsesnatkowym jesteś co prawda cały czas nieletnia, ale liczby robią się coraz poważniejsze :)
