@@ -2,7 +2,7 @@
   "name": "uro",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://urodzinowy.github.io/urodzinowy-pomocnik",
+  "homepage": "https://gdzie-zabierze-mnie-moj-chlopak.github.io/urodzinowy-pomocnik",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
